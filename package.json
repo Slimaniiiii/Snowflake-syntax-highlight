@@ -1,9 +1,9 @@
 {
-    "name": "Snowflake syntax highlight",
+    "name": "Snowflake-syntax-highlight",
     "displayName": "Snowflake Syntax Highlight",
     "description": "Syntax highlighting for SQL string",
     "$schema": "vscode://schemas/color-theme",
-	"type": "dark",
+    "type": "dark",
     "version": "0.1.0",
     "publisher": "HoussemSlimani",
     "author": {
@@ -111,5 +111,8 @@
     "scripts": {
         "build": "node ./highlight/fns/build",
         "genSnippets": "node ./highlight/fns/generateSnippets"
+    },
+    "dependencies": {
+        "vsce": "^2.9.2"
     }
 }
