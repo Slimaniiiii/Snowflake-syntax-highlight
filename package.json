@@ -4,7 +4,7 @@
     "description": "Syntax highlighting for SQL string",
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "HoussemSlimani",
     "author": {
         "name": "Houssem Slimani"
