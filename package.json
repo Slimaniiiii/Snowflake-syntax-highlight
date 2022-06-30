@@ -1,0 +1,115 @@
+{
+    "name": "Snowflake syntax highlight",
+    "displayName": "Snowflake Syntax Highlight",
+    "description": "Syntax highlighting for SQL string",
+    "$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+    "version": "0.1.0",
+    "publisher": "HoussemSlimani",
+    "author": {
+        "name": "Houssem Slimani"
+    },
+    "icon": "snowicon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Slimaniiiii/Snowflake-syntax-highlight"
+    },
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Other"
+    ],
+    "keywords": [
+        "snowflake",
+        "SQL string",
+        "SQL string highlight",
+        "sql highlight",
+        "snowflake syntax highlight",
+        "syntax highlight",
+        "javascript",
+        "css",
+        "html",
+        "sql",
+        "hive",
+        "yaml",
+        "highlight",
+        "hightlight",
+        "embedded language"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "path": "./highlight/highlight-string-code.json",
+                "scopeName": "sql-string-highlight",
+                "injectTo": [
+                    "source.go",
+                    "source.python",
+                    "source.css",
+                    "source.clojure",
+                    "source.perl",
+                    "source.perl.6",
+                    "source.rust",
+                    "source.fsharp",
+                    "source.r",
+                    "source.java",
+                    "text.html.basic",
+                    "text.html.derivative",
+                    "source.php",
+                    "text.html.php",
+                    "source.lua",
+                    "source.asp.vb.net",
+                    "source.powershell",
+                    "source.ts",
+                    "source.tsx",
+                    "source.c",
+                    "source.cpp",
+                    "source.c.platform",
+                    "source.swift",
+                    "source.shell",
+                    "source.cs",
+                    "source.batchfile",
+                    "source.groovy",
+                    "source.coffee",
+                    "source.js.jsx",
+                    "source.js",
+                    "source.js.regexp",
+                    "source.objc",
+                    "source.objcpp",
+                    "source.ruby",
+                    "source",
+                    "text"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.block.css": "css",
+                    "meta.embedded.block.js": "javascript",
+                    "meta.embedded.block.html": "html",
+                    "meta.embedded.block.sql": "sql",
+                    "meta.embedded.block.hive": "hive-sql"
+                },
+                "tokenTypes": {
+                    "meta.*": "other"
+                }
+            }
+        ],
+        "themes": [
+            {
+                "label": "Sovereign",
+                "uiTheme": "vs-dark",
+                "path": "./highlight/highlight-string-code.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/highlight-blocks.code-snippets"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node ./highlight/fns/build",
+        "genSnippets": "node ./highlight/fns/generateSnippets"
+    }
+}

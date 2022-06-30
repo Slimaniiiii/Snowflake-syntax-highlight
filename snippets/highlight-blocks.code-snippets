@@ -1,0 +1,74 @@
+{
+    "Highlight javascript": {
+        "prefix": [
+            "hjs",
+            "sf-javascript-highlight"
+        ],
+        "body": [
+            "// js",
+            "$0",
+            "// !js"
+        ],
+        "description": "Sign pair for highlighting javascript code."
+    },
+    "Highlight html": {
+        "prefix": [
+            "hhtml",
+            "sf-html-highlight"
+        ],
+        "body": [
+            "<!-- html -->",
+            "$0",
+            "<!-- !html -->"
+        ],
+        "description": "Sign pair for highlighting html code."
+    },
+    "Highlight css": {
+        "prefix": [
+            "hcss",
+            "sf-css-highlight"
+        ],
+        "body": [
+            "/* css */",
+            "$0",
+            "/* !css */"
+        ],
+        "description": "Sign pair for highlighting css code."
+    },
+    "Highlight sql": {
+        "prefix": [
+            "hsql",
+            "sf-sql-highlight"
+        ],
+        "body": [
+            "-- beginsql",
+            "$0",
+            "-- endsql"
+        ],
+        "description": "Sign pair for highlighting sql code."
+    },
+    "Highlight hive-sql": {
+        "prefix": [
+            "hhql",
+            "sf--hive-sql-highlight"
+        ],
+        "body": [
+            "-- hive",
+            "$0",
+            "-- !hive"
+        ],
+        "description": "Sign pair for highlighting hive-sql code."
+    },
+    "Highlight yaml": {
+        "prefix": [
+            "hyaml",
+            "highlight-yaml"
+        ],
+        "body": [
+            "--- #yaml",
+            "$0",
+            "#!yaml"
+        ],
+        "description": "Sign pair for highlighting yaml code."
+    }
+}
