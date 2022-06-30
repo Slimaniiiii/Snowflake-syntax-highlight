@@ -9,6 +9,10 @@
     "author": {
         "name": "Houssem Slimani"
     },
+    "galleryBanner": {
+        "color": "#00a3db",
+        "theme": "dark"
+      },
     "icon": "snowicon.png",
     "repository": {
         "type": "git",
